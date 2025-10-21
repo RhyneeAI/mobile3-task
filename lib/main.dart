@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mobile3_task/calculator.dart';
 
 void main() {
-  runApp(const ProfileCard());
+  runApp(const Calculator());
 }
 
 class ProfileCard extends StatelessWidget {
