@@ -9,7 +9,7 @@ import 'package:mobile3_task/tugas7/view_provider.dart';
 import 'package:mobile3_task/tugas8/shared_preference.dart';
 
 void main() {
-  // runApp(const ()); // Tugas 8 (uncomment for viewing)
+  runApp(const SharedPreference()); // Tugas 8 (uncomment for viewing)
   // runApp(const ViewProvider()); // Tugas 7(uncomment for viewing)
   // runApp(const ListGrid()); // Tugas 6 (uncomment for viewing)
   // runApp(const ListScreen()); // Tugas 5 (uncomment for viewing)
