@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "509571345126",
+    "firebase_url": "https://mobile3-5a523-default-rtdb.firebaseio.com",
+    "project_id": "mobile3-5a523",
+    "storage_bucket": "mobile3-5a523.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509571345126:android:696aa7918037a18b646927",
+        "android_client_info": {
+          "package_name": "com.example.mobile3_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgcV3IO2dN7r7N29gP5wQdv0ctzhzqyCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509571345126:android:053f8cdf7d4d9e3a646927",
+        "android_client_info": {
+          "package_name": "com.example.pertemuan9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgcV3IO2dN7r7N29gP5wQdv0ctzhzqyCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,13 +7,24 @@ import 'package:mobile3_task/tugas5/page/list_screen.dart';
 import 'package:mobile3_task/tugas6/list_grid.dart';
 import 'package:mobile3_task/tugas7/view_provider.dart';
 import 'package:mobile3_task/tugas8/shared_preference.dart';
+import 'package:mobile3_task/tugas9/login.dart';
+import 'package:mobile3_task/tugas9/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
-  runApp(const SharedPreference()); // Tugas 8 (uncomment for viewing)
-  // runApp(const ViewProvider()); // Tugas 7(uncomment for viewing)
-  // runApp(const ListGrid()); // Tugas 6 (uncomment for viewing)
-  // runApp(const ListScreen()); // Tugas 5 (uncomment for viewing)
-  // runApp(const Calculator()); // Tugas 3 (uncomment for viewing)
-  // runApp(const ProfileCard()); // Tugas 2 (uncomment for viewing)
-  // runApp(const NewsApp()); // Tugas 4 (uncomment for viewing)
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(LoginValidation()); // Tugas 9 (uncomment for viewing)
 }
+
+// void main() {
+//   runApp(const SharedPreference()); // Tugas 8 (uncomment for viewing)
+//   runApp(const ViewProvider()); // Tugas 7(uncomment for viewing)
+//   runApp(const ListGrid()); // Tugas 6 (uncomment for viewing)
+//   runApp(const ListScreen()); // Tugas 5 (uncomment for viewing)
+//   runApp(const Calculator()); // Tugas 3 (uncomment for viewing)
+//   runApp(const ProfileCard()); // Tugas 2 (uncomment for viewing)
+//   runApp(const NewsApp()); // Tugas 4 (uncomment for viewing)
+// }
